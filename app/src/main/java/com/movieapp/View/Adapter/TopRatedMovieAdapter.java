@@ -59,7 +59,7 @@ public class TopRatedMovieAdapter extends RecyclerView.Adapter<TopRatedMovieAdap
         }
     }
 
-    public class myViewHolder extends RecyclerView.ViewHolder {
+    public static class myViewHolder extends RecyclerView.ViewHolder {
             ImageView imageView;
 
         public myViewHolder(@NonNull View itemView) {

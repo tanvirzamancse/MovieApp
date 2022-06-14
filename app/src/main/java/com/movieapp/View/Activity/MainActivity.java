@@ -11,12 +11,10 @@ import com.movieapp.View.Adapter.TopRatedMovieAdapter;
 import com.movieapp.ViewModel.MainActivityViewModel;
 import com.movieapp.databinding.ActivityMainBinding;
 import java.util.List;
-
 public class MainActivity extends AppCompatActivity {
     private MainActivityViewModel mViewModel;
     private ActivityMainBinding binding;
     private TopRatedMovieAdapter mAdapter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
